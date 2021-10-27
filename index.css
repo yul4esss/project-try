@@ -1,0 +1,121 @@
+.whats-new-block {
+    background-color: rgb(30,43,118);
+  }
+
+  @media screen and (max-width : 600px) {
+      .whats-new-block-pos {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+      }
+  }
+  .whats-new-block-pos {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+    justify-items: center;
+    padding: 200px;
+    margin-top: -160px;
+  }
+  
+  .text-pos {
+      display: inline-block;
+      position: absolute;
+      top: 0;
+      right: 40px;
+      margin-top: 50px;
+  }
+  
+  .txt-pos {
+  text-align: left;
+  width: 220px;
+  }
+  
+  .button-pos {
+    margin-top: 65px;
+  }
+  
+  .yellow-stripe {
+    background-color: rgb(253,172,8);
+    width: 58.5px;
+    height: 3px;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  
+    .whats-new-block-pos img {
+      height: 323px;
+      width: 260px;
+      object-fit: cover;
+      margin: 25px;
+    }
+    .whats-new-paragraph {
+      font-size: 58px;
+      line-height: 1.18;
+      font-weight: 700;
+      color: #fff;
+      text-align: center;
+      letter-spacing: -.021em;
+    }
+    .line {
+      text-align: center;
+      color: rgba(255,255,255,0.7);
+      font-size: 19px;
+    }
+    .block-title {
+      color: #fdac08;
+      font-weight: bold;
+      font-size: 13px;
+      font-family: 'Exo', sans-serif;
+    }
+  .block-text {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 1.31;
+    color: white;
+  }
+  .block-dates {
+    font-family: Exo;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .button a{
+    font-family: 'Exo', sans-serif;
+    color: #fdac08;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  .button a:hover{
+    color: #fff;
+    transition: 0.7s;
+    text-decoration: underline;
+  }
+  .channels {
+    background-color: #7237df;
+    position: relative;
+    height: 372px;
+    width: 570px;
+  }
+  .sports {
+    background-color: #7237df;
+    position: relative;
+    height: 372px;
+    width: 570px;
+  }
+  .coming-soon {
+    background-color: #7237df;
+    position: relative;
+    height: 372px;
+    width: 570px;
+  }
+  .tv-series {
+    background-color: #7237df;
+    position: relative;
+    height: 372px;
+    width: 570px;
+  }
